@@ -16,6 +16,14 @@
 		4089F4C425F3BF16001031E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4089F4C325F3BF16001031E8 /* main.m */; };
 		4089F4CE25F3BF16001031E8 /* EventTrackingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4089F4CD25F3BF16001031E8 /* EventTrackingDemoTests.m */; };
 		4089F4D925F3BF16001031E8 /* EventTrackingDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4089F4D825F3BF16001031E8 /* EventTrackingDemoUITests.m */; };
+		4089F4E925F3BF36001031E8 /* ETHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 4089F4E825F3BF36001031E8 /* ETHook.m */; };
+		4089F4ED25F3C1B1001031E8 /* UIViewController+logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4089F4EC25F3C1B1001031E8 /* UIViewController+logger.m */; };
+		4089F4F125F3C34A001031E8 /* ETLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4089F4F025F3C34A001031E8 /* ETLogger.m */; };
+		4089F4F425F3C643001031E8 /* UIButton+logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4089F4F325F3C643001031E8 /* UIButton+logger.m */; };
+		4089F4F725F3C8CF001031E8 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4089F4F625F3C8CF001031E8 /* MyTableViewController.m */; };
+		4089F4FA25F3CAE1001031E8 /* UITableView+logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4089F4F925F3CAE1001031E8 /* UITableView+logger.m */; };
+		4089F50025F4086D001031E8 /* GesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4089F4FF25F4086D001031E8 /* GesViewController.m */; };
+		4089F50325F409AA001031E8 /* UIGestureRecognizer+logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4089F50225F409AA001031E8 /* UIGestureRecognizer+logger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +62,22 @@
 		4089F4D425F3BF16001031E8 /* EventTrackingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventTrackingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4089F4D825F3BF16001031E8 /* EventTrackingDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventTrackingDemoUITests.m; sourceTree = "<group>"; };
 		4089F4DA25F3BF16001031E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4089F4E725F3BF36001031E8 /* ETHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETHook.h; sourceTree = "<group>"; };
+		4089F4E825F3BF36001031E8 /* ETHook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETHook.m; sourceTree = "<group>"; };
+		4089F4EB25F3C1B1001031E8 /* UIViewController+logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+logger.h"; sourceTree = "<group>"; };
+		4089F4EC25F3C1B1001031E8 /* UIViewController+logger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+logger.m"; sourceTree = "<group>"; };
+		4089F4EF25F3C34A001031E8 /* ETLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETLogger.h; sourceTree = "<group>"; };
+		4089F4F025F3C34A001031E8 /* ETLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETLogger.m; sourceTree = "<group>"; };
+		4089F4F225F3C643001031E8 /* UIButton+logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+logger.h"; sourceTree = "<group>"; };
+		4089F4F325F3C643001031E8 /* UIButton+logger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+logger.m"; sourceTree = "<group>"; };
+		4089F4F525F3C8CF001031E8 /* MyTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		4089F4F625F3C8CF001031E8 /* MyTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
+		4089F4F825F3CAE1001031E8 /* UITableView+logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+logger.h"; sourceTree = "<group>"; };
+		4089F4F925F3CAE1001031E8 /* UITableView+logger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+logger.m"; sourceTree = "<group>"; };
+		4089F4FE25F4086D001031E8 /* GesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GesViewController.h; sourceTree = "<group>"; };
+		4089F4FF25F4086D001031E8 /* GesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GesViewController.m; sourceTree = "<group>"; };
+		4089F50125F409AA001031E8 /* UIGestureRecognizer+logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+logger.h"; sourceTree = "<group>"; };
+		4089F50225F409AA001031E8 /* UIGestureRecognizer+logger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+logger.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +128,19 @@
 		4089F4B025F3BF13001031E8 /* EventTrackingDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4089F4E625F3BF1C001031E8 /* ETHook */,
+				4089F4EE25F3C328001031E8 /* ETLogger */,
+				4089F4EA25F3C192001031E8 /* Category */,
 				4089F4B125F3BF13001031E8 /* AppDelegate.h */,
 				4089F4B225F3BF13001031E8 /* AppDelegate.m */,
 				4089F4B425F3BF13001031E8 /* SceneDelegate.h */,
 				4089F4B525F3BF13001031E8 /* SceneDelegate.m */,
 				4089F4B725F3BF13001031E8 /* ViewController.h */,
 				4089F4B825F3BF13001031E8 /* ViewController.m */,
+				4089F4FE25F4086D001031E8 /* GesViewController.h */,
+				4089F4FF25F4086D001031E8 /* GesViewController.m */,
+				4089F4F525F3C8CF001031E8 /* MyTableViewController.h */,
+				4089F4F625F3C8CF001031E8 /* MyTableViewController.m */,
 				4089F4BA25F3BF13001031E8 /* Main.storyboard */,
 				4089F4BD25F3BF16001031E8 /* Assets.xcassets */,
 				4089F4BF25F3BF16001031E8 /* LaunchScreen.storyboard */,
@@ -135,6 +166,39 @@
 				4089F4DA25F3BF16001031E8 /* Info.plist */,
 			);
 			path = EventTrackingDemoUITests;
+			sourceTree = "<group>";
+		};
+		4089F4E625F3BF1C001031E8 /* ETHook */ = {
+			isa = PBXGroup;
+			children = (
+				4089F4E725F3BF36001031E8 /* ETHook.h */,
+				4089F4E825F3BF36001031E8 /* ETHook.m */,
+			);
+			path = ETHook;
+			sourceTree = "<group>";
+		};
+		4089F4EA25F3C192001031E8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4089F4EB25F3C1B1001031E8 /* UIViewController+logger.h */,
+				4089F4EC25F3C1B1001031E8 /* UIViewController+logger.m */,
+				4089F4F225F3C643001031E8 /* UIButton+logger.h */,
+				4089F4F325F3C643001031E8 /* UIButton+logger.m */,
+				4089F4F825F3CAE1001031E8 /* UITableView+logger.h */,
+				4089F4F925F3CAE1001031E8 /* UITableView+logger.m */,
+				4089F50125F409AA001031E8 /* UIGestureRecognizer+logger.h */,
+				4089F50225F409AA001031E8 /* UIGestureRecognizer+logger.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		4089F4EE25F3C328001031E8 /* ETLogger */ = {
+			isa = PBXGroup;
+			children = (
+				4089F4EF25F3C34A001031E8 /* ETLogger.h */,
+				4089F4F025F3C34A001031E8 /* ETLogger.m */,
+			);
+			path = ETLogger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,8 +332,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				4089F4B925F3BF13001031E8 /* ViewController.m in Sources */,
+				4089F4F425F3C643001031E8 /* UIButton+logger.m in Sources */,
 				4089F4B325F3BF13001031E8 /* AppDelegate.m in Sources */,
+				4089F50325F409AA001031E8 /* UIGestureRecognizer+logger.m in Sources */,
+				4089F4ED25F3C1B1001031E8 /* UIViewController+logger.m in Sources */,
+				4089F50025F4086D001031E8 /* GesViewController.m in Sources */,
 				4089F4C425F3BF16001031E8 /* main.m in Sources */,
+				4089F4FA25F3CAE1001031E8 /* UITableView+logger.m in Sources */,
+				4089F4F125F3C34A001031E8 /* ETLogger.m in Sources */,
+				4089F4F725F3C8CF001031E8 /* MyTableViewController.m in Sources */,
+				4089F4E925F3BF36001031E8 /* ETHook.m in Sources */,
 				4089F4B625F3BF13001031E8 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
