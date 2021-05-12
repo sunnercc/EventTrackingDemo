@@ -1,0 +1,300 @@
+{
+    "Page": {
+        "ViewController": {
+            "pageDefined": {
+                "pageID": "432531532532532",
+                "pageName": "hello world",
+                "version": "0.1.1"
+            },
+            "paramsDefined": [
+                {
+                    "propertyKeyPath": "_a",
+                    "propertyName": "a",
+                    "propertyDesc": "a 的描述"
+                },
+                {
+                    "propertyKeyPath": "_b",
+                    "propertyName": "b",
+                    "propertyDesc": "b 的描述"
+                },
+                {
+                    "propertyKeyPath": "test",
+                    "propertyName": "test",
+                    "propertyDesc": "test 的描述"
+                }
+            ]
+        },
+        "GesViewController": {
+            "pageDefined": {
+                "pageID": "432531532532532",
+                "pageName": "hello world",
+                "version": "0.1.1"
+            },
+            "paramsDefined": [
+                {
+                    "propertyKeyPath": "_a",
+                    "propertyName": "a",
+                    "propertyDesc": "a 的描述"
+                },
+                {
+                    "propertyKeyPath": "_b",
+                    "propertyName": "b",
+                    "propertyDesc": "b 的描述"
+                },
+                {
+                    "propertyKeyPath": "test",
+                    "propertyName": "test",
+                    "propertyDesc": "test 的描述"
+                }
+            ]
+        },
+        "MyTableViewController": {
+            "pageDefined": {
+                "pageID": "432531532532532",
+                "pageName": "hello world",
+                "version": "0.1.1"
+            },
+            "paramsDefined": [
+                {
+                    "propertyKeyPath": "view.backgroundColor",
+                    "propertyName": "view.backgroundColor",
+                    "propertyDesc": "view.backgroundColor 的描述"
+                },
+                {
+                    "propertyKeyPath": "_b",
+                    "propertyName": "b",
+                    "propertyDesc": "b 的描述"
+                },
+                {
+                    "propertyKeyPath": "test",
+                    "propertyName": "test",
+                    "propertyDesc": "test 的描述"
+                }
+            ]
+        }
+    },
+    "UIControl": {
+        "ViewController|UIView(1)_UIButton|click:": {
+            "eventDefined": {
+                "eventID": "gdagdsagdsartewtew",
+                "eventName": "hello eventName",
+                "version": "0.1.1"
+            },
+            "paramsDefined": {
+                "self": [
+                    {
+                        "propertyKeyPath": "titleLabel.text",
+                        "propertyName": "titleLabel.text",
+                        "propertyDesc": "titleLabel.text 的描述"
+                    },
+                    {
+                        "propertyKeyPath": "_b",
+                        "propertyName": "b",
+                        "propertyDesc": "b 的描述"
+                    },
+                    {
+                        "propertyKeyPath": "test",
+                        "propertyName": "test",
+                        "propertyDesc": "test 的描述"
+                    }
+                ],
+                "target": [
+                    {
+                        "propertyKeyPath": "view.backgroundColor",
+                        "propertyName": "view.backgroundColor",
+                        "propertyDesc": "view.backgroundColor 的描述"
+                    },
+                    {
+                        "propertyKeyPath": "_b",
+                        "propertyName": "b",
+                        "propertyDesc": "b 的描述"
+                    },
+                    {
+                        "propertyKeyPath": "test",
+                        "propertyName": "test",
+                        "propertyDesc": "test 的描述"
+                    }
+                ]
+            }
+        },
+        "GesViewController|UIView(0)_UIButton|perform:": {
+            "eventDefined": {
+                "eventID": "gdagdsagdsartewtew",
+                "eventName": "hello eventName",
+                "version": "0.1.1"
+            },
+            "paramsDefined": {
+                "self": [
+                    {
+                        "propertyKeyPath": "titleLabel.text",
+                        "propertyName": "titleLabel.text",
+                        "propertyDesc": "titleLabel.text 的描述"
+                    },
+                    {
+                        "propertyKeyPath": "_b",
+                        "propertyName": "b",
+                        "propertyDesc": "b 的描述"
+                    },
+                    {
+                        "propertyKeyPath": "test",
+                        "propertyName": "test",
+                        "propertyDesc": "test 的描述"
+                    }
+                ],
+                "target": [
+                    {
+                        "propertyKeyPath": "view.backgroundColor",
+                        "propertyName": "view.backgroundColor",
+                        "propertyDesc": "view.backgroundColor 的描述"
+                    },
+                    {
+                        "propertyKeyPath": "_b",
+                        "propertyName": "b",
+                        "propertyDesc": "b 的描述"
+                    },
+                    {
+                        "propertyKeyPath": "test",
+                        "propertyName": "test",
+                        "propertyDesc": "test 的描述"
+                    }
+                ]
+            }
+        }
+    },
+    "UITapGestureRecognizer": {
+        "GesViewController|UIView(1)_UIView|tapRec:": {
+            "eventDefined": {
+                "eventID": "gdagdsagdsartewtew",
+                "eventName": "hello eventName",
+                "version": "0.1.1"
+            },
+            "paramsDefined": {
+                "self": [
+                    {
+                        "propertyKeyPath": "name",
+                        "propertyName": "name",
+                        "propertyDesc": "name 的描述"
+                    },
+                    {
+                        "propertyKeyPath": "_b",
+                        "propertyName": "b",
+                        "propertyDesc": "b 的描述"
+                    },
+                    {
+                        "propertyKeyPath": "test",
+                        "propertyName": "test",
+                        "propertyDesc": "test 的描述"
+                    }
+                ],
+                "target": [
+                    {
+                        "propertyKeyPath": "view.backgroundColor",
+                        "propertyName": "view.backgroundColor",
+                        "propertyDesc": "view.backgroundColor 的描述"
+                    },
+                    {
+                        "propertyKeyPath": "_b",
+                        "propertyName": "b",
+                        "propertyDesc": "b 的描述"
+                    },
+                    {
+                        "propertyKeyPath": "test",
+                        "propertyName": "test",
+                        "propertyDesc": "test 的描述"
+                    }
+                ]
+            }
+        }
+    },
+    "UITableView": {
+        "MyTableViewController|UITableView(*-*)_UITableViewCell": {
+            "eventDefined": {
+                "eventID": "gdagdsagdsartewtew",
+                "eventName": "hello eventName",
+                "version": "0.1.1"
+            },
+            "paramsDefined": {
+                "self": [
+                    {
+                        "propertyKeyPath": "textLabel.text",
+                        "propertyName": "textLabel.text",
+                        "propertyDesc": "textLabel.text 的描述"
+                    },
+                    {
+                        "propertyKeyPath": "_b",
+                        "propertyName": "b",
+                        "propertyDesc": "b 的描述"
+                    },
+                    {
+                        "propertyKeyPath": "test",
+                        "propertyName": "test",
+                        "propertyDesc": "test 的描述"
+                    }
+                ],
+                "target": [
+                    {
+                        "propertyKeyPath": "view.backgroundColor",
+                        "propertyName": "view.backgroundColor",
+                        "propertyDesc": "view.backgroundColor 的描述"
+                    },
+                    {
+                        "propertyKeyPath": "_b",
+                        "propertyName": "b",
+                        "propertyDesc": "b 的描述"
+                    },
+                    {
+                        "propertyKeyPath": "test",
+                        "propertyName": "test",
+                        "propertyDesc": "test 的描述"
+                    }
+                ]
+            }
+        }
+    },
+    "UICollectionView": {
+        "MyCollectionViewController|UICollectionView(*-*)_UICollectionViewCell": {
+            "eventDefined": {
+                "eventID": "gdagdsagdsartewtew",
+                "eventName": "hello eventName",
+                "version": "0.1.1"
+            },
+            "paramsDefined": {
+                "self": [
+                    {
+                        "propertyKeyPath": "textLabel.text",
+                        "propertyName": "textLabel.text",
+                        "propertyDesc": "textLabel.text 的描述"
+                    },
+                    {
+                        "propertyKeyPath": "_b",
+                        "propertyName": "b",
+                        "propertyDesc": "b 的描述"
+                    },
+                    {
+                        "propertyKeyPath": "test",
+                        "propertyName": "test",
+                        "propertyDesc": "test 的描述"
+                    }
+                ],
+                "target": [
+                    {
+                        "propertyKeyPath": "view.backgroundColor",
+                        "propertyName": "view.backgroundColor",
+                        "propertyDesc": "view.backgroundColor 的描述"
+                    },
+                    {
+                        "propertyKeyPath": "_b",
+                        "propertyName": "b",
+                        "propertyDesc": "b 的描述"
+                    },
+                    {
+                        "propertyKeyPath": "test",
+                        "propertyName": "test",
+                        "propertyDesc": "test 的描述"
+                    }
+                ]
+            }
+        }
+    }
+}
+

@@ -1,8 +1,8 @@
 //
-//  ETLogger.h
+//  UICollectionView+logger.h
 //  EventTrackingDemo
 //
-//  Created by sunner on 2021/3/6.
+//  Created by sunner on 2021/5/11.
 //  Copyright © 2021 sunner. All rights reserved.
 //
 
@@ -10,11 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ETLogger : NSObject
-
-+ (instancetype)shareLogger;
-
-- (void)track:(NSDictionary *)data;
+@interface UICollectionView (logger)
 
 @end
 

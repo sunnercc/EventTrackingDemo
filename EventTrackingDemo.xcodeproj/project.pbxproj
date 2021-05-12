@@ -19,11 +19,21 @@
 		4089F4E925F3BF36001031E8 /* ETHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 4089F4E825F3BF36001031E8 /* ETHook.m */; };
 		4089F4ED25F3C1B1001031E8 /* UIViewController+logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4089F4EC25F3C1B1001031E8 /* UIViewController+logger.m */; };
 		4089F4F125F3C34A001031E8 /* ETLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4089F4F025F3C34A001031E8 /* ETLogger.m */; };
-		4089F4F425F3C643001031E8 /* UIButton+logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4089F4F325F3C643001031E8 /* UIButton+logger.m */; };
+		4089F4F425F3C643001031E8 /* UIControl+logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4089F4F325F3C643001031E8 /* UIControl+logger.m */; };
 		4089F4F725F3C8CF001031E8 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4089F4F625F3C8CF001031E8 /* MyTableViewController.m */; };
 		4089F4FA25F3CAE1001031E8 /* UITableView+logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4089F4F925F3CAE1001031E8 /* UITableView+logger.m */; };
 		4089F50025F4086D001031E8 /* GesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4089F4FF25F4086D001031E8 /* GesViewController.m */; };
-		4089F50325F409AA001031E8 /* UIGestureRecognizer+logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4089F50225F409AA001031E8 /* UIGestureRecognizer+logger.m */; };
+		4089F50325F409AA001031E8 /* UITapGestureRecognizer+logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4089F50225F409AA001031E8 /* UITapGestureRecognizer+logger.m */; };
+		40CDE2FC2649A801003B8822 /* UIView+ca.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CDE2FB2649A801003B8822 /* UIView+ca.m */; };
+		40CDE3032649ACB6003B8822 /* ETTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CDE3022649ACB6003B8822 /* ETTool.m */; };
+		40CDE30C2649BBC4003B8822 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CDE30B2649BBC4003B8822 /* Person.m */; };
+		40CDE3132649BBE2003B8822 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CDE3122649BBE2003B8822 /* Student.m */; };
+		40CDE3252649C13D003B8822 /* Student+ca.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CDE3242649C13D003B8822 /* Student+ca.m */; };
+		40CDE32E2649D808003B8822 /* UICollectionView+logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CDE32D2649D808003B8822 /* UICollectionView+logger.m */; };
+		40CDE33A264A8210003B8822 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 40CDE339264A8210003B8822 /* data.json */; };
+		40CDE343264AC8C5003B8822 /* DataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CDE342264AC8C5003B8822 /* DataParser.m */; };
+		40CDE352264AE0E0003B8822 /* NSObject+ca.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CDE351264AE0E0003B8822 /* NSObject+ca.m */; };
+		40CDE358264B0A6A003B8822 /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CDE357264B0A6A003B8822 /* DeviceInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,16 +78,35 @@
 		4089F4EC25F3C1B1001031E8 /* UIViewController+logger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+logger.m"; sourceTree = "<group>"; };
 		4089F4EF25F3C34A001031E8 /* ETLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETLogger.h; sourceTree = "<group>"; };
 		4089F4F025F3C34A001031E8 /* ETLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETLogger.m; sourceTree = "<group>"; };
-		4089F4F225F3C643001031E8 /* UIButton+logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+logger.h"; sourceTree = "<group>"; };
-		4089F4F325F3C643001031E8 /* UIButton+logger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+logger.m"; sourceTree = "<group>"; };
+		4089F4F225F3C643001031E8 /* UIControl+logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+logger.h"; sourceTree = "<group>"; };
+		4089F4F325F3C643001031E8 /* UIControl+logger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+logger.m"; sourceTree = "<group>"; };
 		4089F4F525F3C8CF001031E8 /* MyTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
 		4089F4F625F3C8CF001031E8 /* MyTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
 		4089F4F825F3CAE1001031E8 /* UITableView+logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+logger.h"; sourceTree = "<group>"; };
 		4089F4F925F3CAE1001031E8 /* UITableView+logger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+logger.m"; sourceTree = "<group>"; };
 		4089F4FE25F4086D001031E8 /* GesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GesViewController.h; sourceTree = "<group>"; };
 		4089F4FF25F4086D001031E8 /* GesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GesViewController.m; sourceTree = "<group>"; };
-		4089F50125F409AA001031E8 /* UIGestureRecognizer+logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+logger.h"; sourceTree = "<group>"; };
-		4089F50225F409AA001031E8 /* UIGestureRecognizer+logger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+logger.m"; sourceTree = "<group>"; };
+		4089F50125F409AA001031E8 /* UITapGestureRecognizer+logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITapGestureRecognizer+logger.h"; sourceTree = "<group>"; };
+		4089F50225F409AA001031E8 /* UITapGestureRecognizer+logger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITapGestureRecognizer+logger.m"; sourceTree = "<group>"; };
+		40CDE2FA2649A801003B8822 /* UIView+ca.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ca.h"; sourceTree = "<group>"; };
+		40CDE2FB2649A801003B8822 /* UIView+ca.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ca.m"; sourceTree = "<group>"; };
+		40CDE3012649ACB6003B8822 /* ETTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETTool.h; sourceTree = "<group>"; };
+		40CDE3022649ACB6003B8822 /* ETTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETTool.m; sourceTree = "<group>"; };
+		40CDE30A2649BBC4003B8822 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		40CDE30B2649BBC4003B8822 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		40CDE3112649BBE2003B8822 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		40CDE3122649BBE2003B8822 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		40CDE3232649C13D003B8822 /* Student+ca.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Student+ca.h"; sourceTree = "<group>"; };
+		40CDE3242649C13D003B8822 /* Student+ca.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Student+ca.m"; sourceTree = "<group>"; };
+		40CDE32C2649D808003B8822 /* UICollectionView+logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+logger.h"; sourceTree = "<group>"; };
+		40CDE32D2649D808003B8822 /* UICollectionView+logger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+logger.m"; sourceTree = "<group>"; };
+		40CDE339264A8210003B8822 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		40CDE341264AC8C5003B8822 /* DataParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataParser.h; sourceTree = "<group>"; };
+		40CDE342264AC8C5003B8822 /* DataParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataParser.m; sourceTree = "<group>"; };
+		40CDE350264AE0E0003B8822 /* NSObject+ca.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ca.h"; sourceTree = "<group>"; };
+		40CDE351264AE0E0003B8822 /* NSObject+ca.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ca.m"; sourceTree = "<group>"; };
+		40CDE356264B0A6A003B8822 /* DeviceInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
+		40CDE357264B0A6A003B8822 /* DeviceInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +157,9 @@
 		4089F4B025F3BF13001031E8 /* EventTrackingDemo */ = {
 			isa = PBXGroup;
 			children = (
+				40CDE338264A81EF003B8822 /* Source */,
+				40CDE3102649BBCB003B8822 /* Test */,
+				40CDE3002649ACA8003B8822 /* ETTool */,
 				4089F4E625F3BF1C001031E8 /* ETHook */,
 				4089F4EE25F3C328001031E8 /* ETLogger */,
 				4089F4EA25F3C192001031E8 /* Category */,
@@ -182,12 +214,14 @@
 			children = (
 				4089F4EB25F3C1B1001031E8 /* UIViewController+logger.h */,
 				4089F4EC25F3C1B1001031E8 /* UIViewController+logger.m */,
-				4089F4F225F3C643001031E8 /* UIButton+logger.h */,
-				4089F4F325F3C643001031E8 /* UIButton+logger.m */,
+				4089F4F225F3C643001031E8 /* UIControl+logger.h */,
+				4089F4F325F3C643001031E8 /* UIControl+logger.m */,
+				4089F50125F409AA001031E8 /* UITapGestureRecognizer+logger.h */,
+				4089F50225F409AA001031E8 /* UITapGestureRecognizer+logger.m */,
 				4089F4F825F3CAE1001031E8 /* UITableView+logger.h */,
 				4089F4F925F3CAE1001031E8 /* UITableView+logger.m */,
-				4089F50125F409AA001031E8 /* UIGestureRecognizer+logger.h */,
-				4089F50225F409AA001031E8 /* UIGestureRecognizer+logger.m */,
+				40CDE32C2649D808003B8822 /* UICollectionView+logger.h */,
+				40CDE32D2649D808003B8822 /* UICollectionView+logger.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -199,6 +233,44 @@
 				4089F4F025F3C34A001031E8 /* ETLogger.m */,
 			);
 			path = ETLogger;
+			sourceTree = "<group>";
+		};
+		40CDE3002649ACA8003B8822 /* ETTool */ = {
+			isa = PBXGroup;
+			children = (
+				40CDE3012649ACB6003B8822 /* ETTool.h */,
+				40CDE3022649ACB6003B8822 /* ETTool.m */,
+				40CDE2FA2649A801003B8822 /* UIView+ca.h */,
+				40CDE2FB2649A801003B8822 /* UIView+ca.m */,
+				40CDE350264AE0E0003B8822 /* NSObject+ca.h */,
+				40CDE351264AE0E0003B8822 /* NSObject+ca.m */,
+				40CDE356264B0A6A003B8822 /* DeviceInfo.h */,
+				40CDE357264B0A6A003B8822 /* DeviceInfo.m */,
+			);
+			path = ETTool;
+			sourceTree = "<group>";
+		};
+		40CDE3102649BBCB003B8822 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				40CDE30A2649BBC4003B8822 /* Person.h */,
+				40CDE30B2649BBC4003B8822 /* Person.m */,
+				40CDE3112649BBE2003B8822 /* Student.h */,
+				40CDE3122649BBE2003B8822 /* Student.m */,
+				40CDE3232649C13D003B8822 /* Student+ca.h */,
+				40CDE3242649C13D003B8822 /* Student+ca.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		40CDE338264A81EF003B8822 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				40CDE339264A8210003B8822 /* data.json */,
+				40CDE341264AC8C5003B8822 /* DataParser.h */,
+				40CDE342264AC8C5003B8822 /* DataParser.m */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,6 +379,7 @@
 				4089F4C125F3BF16001031E8 /* LaunchScreen.storyboard in Resources */,
 				4089F4BE25F3BF16001031E8 /* Assets.xcassets in Resources */,
 				4089F4BC25F3BF13001031E8 /* Main.storyboard in Resources */,
+				40CDE33A264A8210003B8822 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,17 +405,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				4089F4B925F3BF13001031E8 /* ViewController.m in Sources */,
-				4089F4F425F3C643001031E8 /* UIButton+logger.m in Sources */,
+				4089F4F425F3C643001031E8 /* UIControl+logger.m in Sources */,
+				40CDE3132649BBE2003B8822 /* Student.m in Sources */,
+				40CDE358264B0A6A003B8822 /* DeviceInfo.m in Sources */,
+				40CDE3252649C13D003B8822 /* Student+ca.m in Sources */,
+				40CDE352264AE0E0003B8822 /* NSObject+ca.m in Sources */,
 				4089F4B325F3BF13001031E8 /* AppDelegate.m in Sources */,
-				4089F50325F409AA001031E8 /* UIGestureRecognizer+logger.m in Sources */,
+				40CDE2FC2649A801003B8822 /* UIView+ca.m in Sources */,
+				4089F50325F409AA001031E8 /* UITapGestureRecognizer+logger.m in Sources */,
 				4089F4ED25F3C1B1001031E8 /* UIViewController+logger.m in Sources */,
 				4089F50025F4086D001031E8 /* GesViewController.m in Sources */,
 				4089F4C425F3BF16001031E8 /* main.m in Sources */,
 				4089F4FA25F3CAE1001031E8 /* UITableView+logger.m in Sources */,
+				40CDE30C2649BBC4003B8822 /* Person.m in Sources */,
 				4089F4F125F3C34A001031E8 /* ETLogger.m in Sources */,
+				40CDE3032649ACB6003B8822 /* ETTool.m in Sources */,
 				4089F4F725F3C8CF001031E8 /* MyTableViewController.m in Sources */,
 				4089F4E925F3BF36001031E8 /* ETHook.m in Sources */,
 				4089F4B625F3BF13001031E8 /* SceneDelegate.m in Sources */,
+				40CDE343264AC8C5003B8822 /* DataParser.m in Sources */,
+				40CDE32E2649D808003B8822 /* UICollectionView+logger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,7 +600,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = sunner.EventTrackingDemo;
+				MARKETING_VERSION = 0.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunner.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -535,7 +618,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = sunner.EventTrackingDemo;
+				MARKETING_VERSION = 0.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunner.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

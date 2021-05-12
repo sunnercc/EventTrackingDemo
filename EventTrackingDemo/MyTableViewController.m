@@ -15,9 +15,13 @@
 @end
 
 @implementation MyTableViewController
+{
+    int a;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    a = 10;
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;

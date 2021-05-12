@@ -23,7 +23,7 @@
 }
 
 - (void)tapRec:(UITapGestureRecognizer *)rec {
-    NSLog(@"%@", rec);
+    NSLog(@"5875t8");
 }
 
 - (void)dealloc {

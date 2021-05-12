@@ -1,5 +1,5 @@
 //
-//  ETLogger.h
+//  UIButton+logger.h
 //  EventTrackingDemo
 //
 //  Created by sunner on 2021/3/6.
@@ -10,11 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ETLogger : NSObject
-
-+ (instancetype)shareLogger;
-
-- (void)track:(NSDictionary *)data;
+@interface UIControl (logger)
 
 @end
 

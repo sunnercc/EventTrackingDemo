@@ -1,8 +1,8 @@
 //
-//  UIGestureRecognizer+logger.h
+//  UIView+ca.h
 //  EventTrackingDemo
 //
-//  Created by sunner on 2021/3/7.
+//  Created by sunner on 2021/5/11.
 //  Copyright © 2021 sunner. All rights reserved.
 //
 
@@ -10,7 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIGestureRecognizer (logger)
+@interface UIView (ca)
+
+- (int)indexOfSuperSubViews;
 
 @end
 
